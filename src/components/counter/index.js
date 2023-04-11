@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+// import KButton from 'kbone-ui/lib/KButton'
 import './index.css'
 
 function Counter() {
@@ -8,6 +9,7 @@ function Counter() {
       <button onClick={() => setCount(count - 1)}>-</button>
       <span>{count}</span>
       <button onClick={() => setCount(count + 1)}>+</button>
+      {/* <KButton size="mini" type="primary">btn</KButton> */}
       <div onClick={clickHandle}>跳转</div>
     </div>
   )
